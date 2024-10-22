@@ -2,7 +2,7 @@ trigger:
  - main
 
 pool:
-  name: 'ap-windows-digitaldev' 
+  vmImage: 'ubuntu-latest'
 
 variables:
   imageName: 'pipelines-javascript-docker'
